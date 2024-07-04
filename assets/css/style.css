@@ -1,3 +1,5 @@
+/* Estilos tipografía */
+
 .poppins-regular {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -16,6 +18,7 @@
     font-style: normal;
   }
 
+  /* Estilos color */
 .color-black {
     color: #000000;
 }
@@ -49,9 +52,8 @@
     display: flex;
     align-items: center;
     background-color: #FFFF;
-    padding: 10px 20px;
-    padding-left: 40px;
-    border-bottom: 1px solid #ddd;
+    padding-left: 5rem;
+    border-bottom: 2px solid #CCCCCC;
 }
 
 .header__logo-image {
@@ -68,47 +70,90 @@
     color: #171717;
 }
 
-/* Estilos para el bloque section */
+/* Estilo para el bloque section */
 .section-título {
     color: #171717;
-    padding-left: 40px;
+    padding-left: 5rem;
 }
 
-/* Estilos generales para todas las tarjetas */
+/* Estilos generales para la card-grande */
 .card {
-    padding: 16px;
-    margin: 16px;
+    padding-left: 5rem;
     width: 800px;
 }
 
 .card__image {
     width: 603px;
-    height: 314px;
+    height: 310px;
     border-radius: 20px;
 }
 
 .card__text {
+    size: 18px;
     color: #171717;
 }
 .card__title {
+    size: 24px;
     color: #171717;
 }
 
-.item {
+.card__item {
     display: flex;
     align-items: center;
 }
 
-.item__logo-image {
-    height: 60px;
-    width: 60px;
+.card__item-logo-image {
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
     margin-right: 10px;
 }
 
-.item__logo-text {
+.card__item-logo-text {
+    size: 24px;
     display: flex;
     align-items: center;
     color: #171717;
 }
 
+/* Estilos generales para la card-horizontal */
+.card__horizontal {
+    width: 540px;
+    padding-left: 5rem;
+}
+
+.card__horizontal-image {    
+    width: 189px;
+    height: 135px;
+    border-radius: 20px;
+}
+
+
+.card__horizontal-text {
+    size: 16px;
+    color: #171717;
+}
+
+.card__horizontal-title {
+    size: 20px;
+    color: #171717;
+}
+
+.cardhorizontal__item {
+    display: flex;
+    align-items: center;
+}
+
+.cardhorizontal__item-logo-image {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.cardhorizontal__item-logo-text {
+    size: 16px;
+    display: flex;
+    align-items: center;
+    color: #171717;
+}
