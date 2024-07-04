@@ -1,0 +1,45 @@
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+.color-black {
+    color: #000000;
+}
+
+.color-red {
+    color: #E93E30;
+}
+
+.color-yellow {
+    color: #F7E018;
+}
+
+.color-blue {
+    color: #299ED5;
+}
+
+.color-gris {
+    color: #292C33;
+}
+
+.color-green {
+    color: #67C770;
+}
+
+.color-purple {
+    color: #563D7C;
+}
