@@ -18,41 +18,13 @@
     font-style: normal;
   }
 
-  /* Estilos color */
-.color-black {
-    color: #000000;
-}
-
-.color-red {
-    color: #E93E30;
-}
-
-.color-yellow {
-    color: #F7E018;
-}
-
-.color-blue {
-    color: #299ED5;
-}
-
-.color-gris {
-    color: #292C33;
-}
-
-.color-green {
-    color: #67C770;
-}
-
-.color-purple {
-    color: #563D7C;
-}
 
 /* Estilos para el bloque header */
 .header {
     display: flex;
     align-items: center;
     background-color: #FFFF;
-    padding-left: 5rem;
+    padding-left: 2rem;
     border-bottom: 2px solid #CCCCCC;
 }
 
@@ -73,27 +45,28 @@
 /* Estilo para el bloque section */
 .section-título {
     color: #171717;
-    padding-left: 5rem;
+    padding-left: 2rem;
+    font-size: 24px;
 }
 
 /* Estilos generales para la card-grande */
 .card {
-    padding-left: 5rem;
-    width: 800px;
+    padding-left: 2rem;
+    width: 100%;
 }
 
 .card__image {
-    width: 603px;
-    height: 310px;
+    width: 580px;
+    height: auto;
     border-radius: 20px;
 }
 
 .card__text {
-    size: 18px;
+    font-size: 18px;
     color: #171717;
 }
 .card__title {
-    size: 24px;
+    font-size: 24px;
     color: #171717;
 }
 
@@ -110,7 +83,7 @@
 }
 
 .card__item-logo-text {
-    size: 24px;
+    font-size: 24px;
     display: flex;
     align-items: center;
     color: #171717;
@@ -118,30 +91,39 @@
 
 /* Estilos generales para la card-horizontal */
 .card__horizontal {
-    width: 540px;
-    padding-left: 5rem;
+    width: 100%;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;  
+
 }
 
 .card__horizontal-image {    
-    width: 189px;
-    height: 135px;
+    width: 180px;
+    height: auto;
     border-radius: 20px;
+    margin-right: 10px;
 }
 
 
 .card__horizontal-text {
-    size: 16px;
+    font-size: 16px;
     color: #171717;
+    flex-direction: column;
+    display: flex;
+
 }
 
 .card__horizontal-title {
-    size: 20px;
+    font-size: 20px;
     color: #171717;
 }
 
 .cardhorizontal__item {
     display: flex;
     align-items: center;
+    margin-top: 8px;
 }
 
 .cardhorizontal__item-logo-image {
@@ -152,8 +134,67 @@
 }
 
 .cardhorizontal__item-logo-text {
-    size: 16px;
+    font-size: 16px;
     display: flex;
     align-items: center;
     color: #171717;
+}
+
+.border__line {
+    border-bottom: 3px solid #CCCCCC;
+}
+
+.card__horizontal-image-mediana {
+    width: 290px;
+    height: auto;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+/* Estilos generales para la card-mediana */
+.card__mediana {
+    width: 100%;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+/* Estilos generales para box */
+.box {
+    margin: 10px;
+    width: 18%;
+    height: 65px;
+    border-radius: 5px;
+}
+
+.box-img {
+    height: 100%;
+    position: relative;
+    float: left;
+
+}
+
+.box-title {
+    font-size: 32px;
+    position: relative;
+    text-align: right;
+    padding-top: 1rem;
+    margin-right: 30px;
+    color: #fff;
+
+}
+
+.html {
+    background-color: #E93E30;
+}
+
+.css {
+    background-color: #299ED5;
+}
+
+.js {
+    background-color: #F7E018;
+}
+
+.react {
+    background-color: #292C33;
 }
