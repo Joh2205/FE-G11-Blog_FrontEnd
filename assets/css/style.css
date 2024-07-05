@@ -37,10 +37,11 @@
 }
 
 .header__text {
-    font-size: 24px;
     display: flex;
     align-items: center;
     color: #171717;
+    font-size: 20px;
+    margin-right: 20px;
 }
 
 /* Estilo para el bloque section */
@@ -229,7 +230,7 @@
     display: flex;
     align-items: center;
     color: #171717;
-    font-size: 24px;
+    font-size: 20px;
     margin-right: 20px;
 }
 
